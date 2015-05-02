@@ -7,7 +7,7 @@ def check_banana(x):
         while sub !=(-1):
             y=y+1
             sub=l.find("banana",(sub+1))
-    return(b)
+    return(y)
 
 check=check_banana("banana.txt")
 print("Numero de bananas: ",check)
